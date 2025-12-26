@@ -40,15 +40,13 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 24px 0;
-   
-}
+      }
 
 .container { 
 max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
-
-}
+ }
 
 .page-header {
     background-color: #fff;
@@ -83,6 +81,7 @@ padding: 0 15px;
 .footer-logo .logo-part {
     color: #f4f4fd;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-container {
@@ -106,7 +105,7 @@ padding: 0 15px;
         padding: 24px 0;
 }
 
-nav-item {
+.nav-item {
     padding: 24px 0;
 }
 
@@ -138,16 +137,16 @@ nav-item {
 .page-footer {
     background-color:#2e2f42;
     padding: 100px 0;
-    margin:  auto;
+    margin: auto;
     padding-left: 15px;
     padding-right: 15px;
         }
+
 .footer-container {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -191,6 +190,8 @@ nav-item {
    border-radius: 4px;
    min-width: 169px;
    text-align: center;
+   display: block;
+   margin: 48px auto 0 auto;
 }
 
 .button-text {
@@ -259,13 +260,14 @@ nav-item {
     border-radius: 0px 0px 4px 4px;
    } 
 
-.first-card {
+.card {
        border-radius: 0 0 4px 4px;
        overflow: hidden;
+       text-align: center;
    }
 
 .card-info {
-       padding: 32px 0;
+    padding: 32px 16px;
    }
 
   
@@ -281,14 +283,37 @@ nav-item {
 .section-about {
    background-color: #fff;
    padding: 120px 0;
-       }
+         }
 
 .about-list {
     display: flex;
     gap: 24px;
     justify-content: space-between;
     margin: 0 156px;
-     }
+    margin-bottom: 8px;
+         }
+
+.about-item { 
+    width: calc((100% - 72px) / 4);
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+         }
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}         
 
 .section-portfolio {
     background-color: #fff;
