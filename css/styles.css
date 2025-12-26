@@ -130,13 +130,14 @@ padding: 0 15px;
 
 .contacts {
     font-style: normal;
-}
+   }
+
 
 .contacts-list {
-    display: flex;
     gap: 40px;
     list-style: none;
-    padding: 24px 0
+    padding: 24px 0;
+    display: flex;       
 }
 
 .contacts-link {
@@ -261,6 +262,19 @@ padding: 0 15px;
        text-align: center;
    }
 
+.card-team {
+    padding: 32px 0;
+ }
+
+.team-title {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+.team-text {
+    text-align: center;
+}
+
 .card-info {
     padding: 32px 16px;
    }
@@ -312,10 +326,10 @@ padding: 0 15px;
 
 .section-portfolio {
     background-color: #fff;
-    padding-top: 120px;
+    padding-top: 120px 0;
     padding-bottom: 120px;
-    margin: 120px 156px 0 156px;
     text-align: center;
+    
 }
 
 .gallery-list {
