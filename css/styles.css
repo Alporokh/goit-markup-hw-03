@@ -60,7 +60,7 @@ padding: 0 15px;
     align-items: center;
     padding: 24px 0;
     gap: 40px;
-}
+    }
 
 
 .logo {
@@ -103,6 +103,7 @@ padding: 0 15px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
 }
 
 .contacts {
@@ -162,6 +163,7 @@ padding: 0 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 188px 0;
       }
 
 .page-title {
@@ -261,8 +263,8 @@ padding: 0 15px;
 .section-about {
     padding: 120px 0;
     background-color: #fff;
-    padding: 188px 0;
-    }
+       }
+       
 .about-list {
     display: flex;
     gap: 24px;
